@@ -1,0 +1,20 @@
+"Basically functions are used to seperate code."
+
+A function is a block of reusable code that:
+#Does a specific task
+#Runs only when called
+#Helps avoid repetition and keeps code clean
+
+There are two types of functions in python :
+1)Built in function (for eg.print(),len(),type(),sum())
+2)User defined function (denoted by def )
+
+There are arguments in python : Arguments are the values you pass to a function when you call it.
+for eg: def add(a, b):   # a, b → parameters
+    return a + b
+
+ add(3, 4)        # 3, 4 → arguments
+
+#There are 4 types of arguments
+
+#Take reference from ChatGpt.
