@@ -1,0 +1,26 @@
+1)def meanhp(a,b):
+  meanhp=a+b
+  print(meanhp)
+  print(type(number))
+a=12
+b=13
+print(meanhp)
+
+OUTPUT : <function meanhp at 0x7b5be0e09bc0>
+
+
+2)def menhp(c,d):
+  print(c+d)
+
+menhp(13,14)
+
+OUTPUT : 27
+
+3) def xp(a,b):
+  print("my name is", a,b)
+
+xp(a="krishna",b="sharma")
+
+OUTPUT : my name is krishna sharma
+
+
