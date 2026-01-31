@@ -1,0 +1,22 @@
+# lists code in python 
+list = ["keshav","krishna","sagar"]
+print(list)
+print(list[0])
+print(list[-1])
+print(list[len(list)-2])
+if "jay"in list:
+  print("yes")
+else:
+  print("no")
+
+OUTPUT : ['keshav', 'krishna', 'sagar']
+keshav
+sagar
+krishna
+no
+
+
+list2=[i for i in range (20)]
+print(list2)
+
+OUTPUT : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
