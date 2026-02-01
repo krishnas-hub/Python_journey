@@ -1,0 +1,20 @@
+#The Greetbot greets you according to the time.
+
+INPUT:
+name=input("Enter Your Name:")
+t = time.strftime('%H:%M:%S')
+hour = int(time.strftime('%H'))
+min = int(time.strftime('%M'))
+print(hour,":" ,min)                          #mistake to be take care of :comma is mandotory inbetween the print section elements
+if(hour>=6 and hour<=12):
+    print("Good Morning",name)   
+elif(hour>12 and hour<=17):
+  print("Good Afternoon",name)
+else:
+  print("Good Night",name)    
+
+
+  OUTPUT:
+Enter Your Name:krishna
+14 : 14
+Good Afternoon krishna
